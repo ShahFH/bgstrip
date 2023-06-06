@@ -22,22 +22,22 @@ const Navbar = () => {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition duration-300 ${scrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      <div className="max-w-7xl mx-auto px-8 sm:px-6 py-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" legacyBehavior>
-              <a className="text-xl font-bold">Logo</a>
+              <a className="text-xl font-bold text-[24px]">BGRSTRIP</a>
             </Link>
           </div>
           <div>
             <Link href="/" legacyBehavior>
-              <a className="mr-4">Home</a>
+              <a className="mr-4 text-[16px]">Home</a>
             </Link>
-            <Link className="mr-4" href="./Footer.jsx">
-              About
+            <Link className="mr-4 text-[16px]" href="#footer">
+              footer
             </Link>
-            <Link href="/contact" legacyBehavior>
-              <a>Contact</a>
+            <Link href="#content">
+              Contact
             </Link>
           </div>
         </div>
