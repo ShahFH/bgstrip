@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
       <body className={manrope.className}>
       <Navbar/>
       {children}
-      
       <Footer/>
       </body>
     </html>
