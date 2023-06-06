@@ -6,8 +6,8 @@ export default function Home() {
     //Hero Section
     <main className="flex min-h-screen flex-col items-center justify-between p-4 md:p-24"> 
     <div className="flex flex-col md:flex-row mx-auto p-4 md:p-12 gap-4 md:gap-12">
-      <div className="w-69 h-64 md:w-96 md:h-96 bg-slate-400 py-14">
-
+      <div className="w-69 h-64 md:w-96 md:h-96 bg-slate-400 py-14">Photo
+      
       </div>
       <div className="flex flex-col justify-between">
         <div className="">
