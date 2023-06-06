@@ -34,7 +34,9 @@ const Navbar = () => {
               <a className="mr-4 text-[16px]">Home</a>
             </Link>
             <Link className="mr-4 text-[16px]" href="#footer">
+            <NavLink>
               footer
+            </NavLink>
             </Link>
             <Link href="#content">
               Contact
