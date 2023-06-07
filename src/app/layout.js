@@ -1,5 +1,6 @@
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
+import Content from './content/page'
 import './globals.css'
 import { Inter, Manrope } from 'next/font/google'
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       <body className={manrope.className}>
       <Navbar/>
       {children}
+      <Content />
       <Footer/>
       </body>
     </html>
