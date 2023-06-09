@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# BGSTRIP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+BGSTRIP is a web application that utilizes the BGREMOVE API to remove backgrounds from images. This powerful background removal service is seamlessly integrated into the BGSTRIP platform, allowing users to efficiently and effectively remove backgrounds from their images.
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+BGSTRIP is built using the following technologies:
 
-### `npm start`
+- React: A popular JavaScript library for building user interfaces.
+- Tailwind CSS: A highly customizable CSS framework for rapid UI development.
+- Framer Motion: A motion library for React that enables smooth animations and transitions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Background Removal: BGSTRIP leverages the BGREMOVE API to remove backgrounds from images. Users can upload their images and apply the background removal process with a simple click.
+- Efficient and Robust: The integration with the BGREMOVE API ensures that the background removal process is both efficient and robust, providing accurate results.
+- User-Friendly Interface: BGSTRIP offers an intuitive and user-friendly interface that makes it easy for users to upload images, apply background removal, and download the edited images.
+- Responsive Design: The web application is designed to be responsive and optimized for various screen sizes, allowing users to access and utilize BGSTRIP on different devices.
 
-### `npm test`
+## Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can try out the live demo of BGSTRIP at [https://bgstrip.netlify.app/](https://bgstrip.netlify.app/).
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run BGSTRIP locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository: `git clone https://github.com/your-username/bgstrip.git`
+2. Navigate to the project directory: `cd bgstrip`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit `http://localhost:3000`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to Use
 
-### `npm run eject`
+1. Open the BGSTRIP web application in your browser.
+2. Click on the "Upload Image" button to select an image from your device.
+3. Once the image is uploaded, click on the "Remove Background" button to initiate the background removal process.
+4. Wait for the process to complete. The time taken may vary depending on the image size and complexity.
+5. Once the background is removed, you can preview the edited image.
+6. If you are satisfied with the result, click on the "Download" button to save the edited image to your device.
+7. You can repeat the process with different images as needed.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
