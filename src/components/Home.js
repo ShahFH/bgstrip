@@ -11,8 +11,8 @@ export default function Home() {
     setLoading(true);
     setShowOverlay(true);
 
-    const apiKey = "ULVe373XWqoTamTiznrayVr5";
-    const url = "https://api.remove.bg/v1.0/removebg";
+    const apiKey = "";
+    const url = "";
 
     const formData = new FormData();
     formData.append("image_file", image, image.name);
