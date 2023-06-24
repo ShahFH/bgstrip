@@ -25,7 +25,7 @@ You can try out the live demo of BGSTRIP at [https://bgstrip.netlify.app/](https
 
 To run BGSTRIP locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/bgstrip.git`
+1. Clone the repository
 2. Navigate to the project directory: `cd bgstrip`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
