@@ -2,6 +2,8 @@
 
 BGSTRIP is a web application that utilizes the BGREMOVE API to remove backgrounds from images. This powerful background removal service is seamlessly integrated into the BGSTRIP platform, allowing users to efficiently and effectively remove backgrounds from their images.
 
+### Performance:
+![performance](performance.png)
 ## Technologies Used
 
 BGSTRIP is built using the following technologies:
