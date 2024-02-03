@@ -45,3 +45,5 @@ To run BGSTRIP locally, follow these steps:
 6. If you are satisfied with the result, click on the "Download" button to save the edited image to your device.
 7. You can repeat the process with different images as needed.
 
+<a href="https://www.buymeacoffee.com/shah.swe" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
