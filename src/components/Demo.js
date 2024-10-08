@@ -20,7 +20,7 @@ export default function Demo() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-12 md:gap-12 lg:gap-16 mx-auto max-w-6xl">
           <div className="relative">
             <motion.div
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.02 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
              className="aspect-w-4 aspect-h-3">
               <img
@@ -32,7 +32,7 @@ export default function Demo() {
           </div>
           <div className="relative">
           <motion.div
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.02 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }} 
             className="aspect-w-4 aspect-h-3">
               <img
@@ -44,7 +44,7 @@ export default function Demo() {
           </div>
           <div className="relative">
           <motion.div
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.02 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }} 
             className="aspect-w-4 aspect-h-3">
               <img
